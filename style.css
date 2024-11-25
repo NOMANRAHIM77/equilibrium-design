@@ -1,0 +1,275 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "ComfortaaRegular";
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100%;
+}
+#home {
+  width: 100%;
+}
+
+#nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5vw;
+}
+#navleft {
+  display: flex;
+  gap: 3vw;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+#nav #centeratag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#hero {
+  width: 100%;
+  height: 55vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+ 
+
+  padding: 0px 5vw;
+  margin-top: 15vw;
+}
+#sustain {
+  width: 200px;
+  height: 300px;
+  margin-top: 60px;
+}
+#sustainimage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#sustainimage img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#circle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 180px;
+}
+#icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+#icon i {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#ephilerem {
+  background-color: rgb(0, 103, 194);
+  width: 29vw;
+  height: 39vw;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#ephilerem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+#headings h1 {
+  letter-spacing: -5px;
+  font-size: 5vw;
+  line-height: 1;
+  font-family: "TanoheSansRegular";
+}
+#headings {
+  position: absolute;
+  top: -20%;
+  left: -8%;
+
+  height: 200px;
+  width: 500px;
+}
+#para {
+  position: absolute;
+  top: 105%;
+}
+#para p{
+    font-weight: 800;
+}
+#circle {
+  margin-top: 400px;
+}
+#hero2{
+    width: 100%;
+    height: 450px;
+    
+}
+#hero2 h3{
+   padding: 0px 5vw;
+   padding-bottom: 2vw;
+    
+}
+#imagepara p{
+    font-size: 30px;
+}
+#imagepara{
+    padding-left: 20vw;
+}
+#img1{
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+#img1 img{
+    
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+#synergy{
+    height: 400px;
+    width: 200px;
+   
+}
+#imageholder1{
+height: 300px;
+width: 200px;
+}
+#imageholder1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    }
+
+
+#harmony{
+    height: 640px;
+    width: 350px;
+    
+}
+#imageholder2{
+    height: 640px;
+    width: 350px;
+    }
+#imageholder2 img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+        }
+#sh{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#synergy h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#harmony h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bottel{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    
+}
+#bottel #imageholder5{
+    position: relative;
+    height: 1000px;
+    width:70%;
+    overflow: hidden;
+}
+#materials{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+#materials p{
+    margin-top: 10px;
+}
+ #imageholder5 img{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#future{
+    position: relative;
+   
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 100%;
+}
+#future video{
+   
+    width: 100%;
+    height: 100%;
+}
+#ftext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ftext button{
+    margin-top: 10px;
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.295);
+    z-index: 10;
+}
+#ftext h2{
+    font-size: 40px;
+}
